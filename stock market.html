@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angle One Demat Account Opening</title>
+</head>
+
+<body>
+
+    <h1>Angle One Demat Account Opening Form</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+        <label for="pan">PAN:</label><br>
+        <input type="text" id="pan" name="pan"><br>
+        <label for="aadhar">Aadhar:</label><br>
+        <input type="text" id="aadhar" name="aadhar"><br>
+        <label for="bank">Bank Account Number:</label><br>
+        <input type="text" id="bank" name="bank"><br>
+        <label for="ifsc">IFSC Code:</label><br>
+        <input type="text" id="ifsc" name="ifsc"><br>
+        <label for="broker">Broker Name:</label><br>
+        <input type="text" id="broker" name="broker"><br>
+        <label for="nominee">Nominee Name:</label><br>
+        <input type="text" id="nominee" name="nominee"><br>
+        <label for="nominee-relationship">Nominee Relationship:</label><br>
+        <input type="text" id="nominee-relationship" name="nominee-relationship"><br>
+        <br/>
+        <input type="submit" value="Submit">
+
+
+
+
+        <title>Angle One Demat Account Login</title>
+        <script>
+            function login() {
+                // Get the values from the login form
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+
+                // Authenticate the user on the server
+                // Replace this with your own server-side authentication code
+                if (username == "myusername" && password == "mypassword") {
+                    // If authentication succeeds, redirect to the user's account page
+                    window.location.href = "https://www.angleone.com/account";
+                } else {
+                    // If authentication fails, display an error message
+                    alert("Invalid username or password. Please try again.");
+                }
+            }
+        </script>
+        </head>
+
+        <body>
+            <h1>Angle One Demat Account Login</h1>
+            <form>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <br/>
+                <input type="button" value="Login" onclick="login()">
+
+            </form>
+        </body>
+
+
+
+
+
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <title>Share Market Company Chart</title>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <style>
+                canvas {
+                    max-width: 800px;
+                    margin: auto;
+                    display: block;
+                }
+            </style>
+        </head>
+
+        <body>
+            <h1>Share Market Company Chart</h1>
+            <canvas id="myChart"></canvas>
+            <script>
+                var ctx = document.getElementById('myChart').getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                        datasets: [{
+                            label: 'Company XYZ',
+                            data: [12, 19, 3, 5, 2, 3, 7, 8, 12, 9, 5, 10],
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                        }
+                    }
+                });
+            </script>
+        </body>
+
+        </html>
+
+
+</html>
+</form>
+</body>
+
+</html>
